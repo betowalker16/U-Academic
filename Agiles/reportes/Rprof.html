@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Responsive</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <a href="#" class="enlace">
+            <img src="../image/academic.JPG" alt="" class="logo">
+        </a>
+
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="../agregar/Sprof.html">Agregar</a></li>
+            <li><a href="../eliminar/Sprof.html">Eliminar</a></li>
+            <li><a href="../editar/Sprof.html">Modificar</a></li>
+            <li><a class="active" href="">Reportes</a></li>
+            <li><a href="../php/Perfil.php">Perfil</a></li>
+            <li><a href="../php/login.php">Salir</a></li>
+        </ul>
+    </nav>
+
+    <h3 class="titulo">OPCIONES DE REPORTES</h3>
+    <section class="lista_rest">
+        
+        <div class="opcion">
+            <a href="Ereport2.php" class="box">
+                <h3>
+                    ENVIAR
+                </h3>
+            </a>
+        </div>
+        <div class="opcion">
+            <a href="Eliminareport2.php" class="box">
+                <h3>
+                    ELIMINAR
+                </h3>
+            </a>
+        </div>
+        <div class="opcion">
+            <a href="Hreport2.php" class="box">
+                <h3>
+                    HISTORIAL
+                </h3>
+            </a>
+        </div>
+    </section>
+</body>
+</html>
